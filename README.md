@@ -215,20 +215,53 @@ kanban-frontend/
 | ------ | ----------------- | --------------------------- |
 | POST   | `/api/auth/login` | Realiza login e retorna JWT |
 
-### ✅ Instalação e Execução
+
+## ⚙️ Instalação e execução
+
+### 🔧 Backend
+
+1. Instale as dependências:
 
 ```bash
-# Instale as dependências do backend
-cd kanban
 npm install
-npm start
+```
 
-# Em outro terminal, inicie o frontend
+2. Execute o servidor:
+
+```bash
+npm start
+```
+
+ou
+
+```bash
+node server.js
+```
+---
+
+### 🎨 Frontend
+
+> Execute após o backend já estar em funcionamento.
+
+1. Acesse a pasta do frontend:
+
+```bash
 cd kanban-frontend
+```
+
+2. Instale as dependências:
+
+```bash
 npm install
+```
+
+3. Inicie o frontend:
+
+```bash
 npm start
 ```
 ---
+
 
 ### 🔐 Autenticação
 
